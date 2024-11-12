@@ -23,6 +23,7 @@
   border-radius:  40px 40px 0px 0px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
+  box-shadow: 5px 5px 20px #000;
 }
 .div2{
   background-color: rgba(255, 255, 255, 0.514);
@@ -32,6 +33,7 @@
   width: 400px;
   height: 100px;
   text-align: center;
+  box-shadow: 5px 5px 20px #000;
 }
 
 .comic-button {
