@@ -30,7 +30,11 @@ escribir[2].addEventListener("input",(event)=>{
     }
 })
 
-function mostrar_datos(){
-    let datos = document.querySelectorAll("p_2");
-    datos[0].textContent=("nombre:" + texto+".")
-}
+
+function mostrarTexto() {
+    let texto1 = document.getElementById("input1").value;
+    let texto2 = document.getElementById("input2").value;
+    let texto3 = document.getElementById("input3").value;
+
+    document.getElementById("resultado").innerText = "Nombre: " + texto1 + " | Correo: " + texto2+"| Contraseña: " + texto3;
+  }

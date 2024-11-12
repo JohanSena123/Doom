@@ -32,10 +32,7 @@
     border-radius: 30px;
     background: rgb(145, 145, 145);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
-    display: flex;
-    flex-direction: column;
     padding: 40px;
-   
   }
 .card2_2 {
   width: fit-content;
@@ -122,7 +119,7 @@ img{
 }
 
 /* From Uiverse.io by Praashoo7 */ 
-.input {
+input {
   border: none;
   outline: none;
   border-radius: 15px;
@@ -132,7 +129,7 @@ img{
   transition: 300ms ease-in-out;
 }
 
-.input:focus {
+input:focus {
   background-color: white;
   transform: scale(1.05);
   box-shadow: 13px 13px 100px #969696,
@@ -162,14 +159,10 @@ button:active {
     0 0.0625em 0 0 #ececec, 0 0.125em 0 0 #e0e0e0, 0 0.125em 0 0 #dedede,
     0 0.2em 0 0 #dcdcdc, 0 0.225em 0 0 #cacaca, 0 0.225em 0.375em 0 #cecece;
 }
-
-.card4{
-  background-color: #ccc;
-  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
-  border: solid 0px;
-  position: relative;top: 30px;
+ol{
   border: none;
   outline: none;
   border-radius: 15px;
-  
+  background-color: #ccc;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
 }
